@@ -4,6 +4,7 @@
 #include <sys/wait.h>
 #include <string.h>
 #include <fcntl.h>
+
 #include "simpleshell.h"
 
 void exec_fork(char *args[], Redirection *redir, int background)
